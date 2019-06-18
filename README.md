@@ -15,7 +15,7 @@ For all the numeric directories under the given directories and for all the tele
 
 outpath='/scratch/group/astro/data/ROTSE' #- default
 outdir=$outpath'/rdata/'${tele}'/'$yy'/'$mm'/'$dd
-logfile=$outpath'/rdata/'$ndate'_'$tele'_copylog.txt'
+logfile=$outpath'/rdata/copylog/'$ndate'_'$tele'_copylog.txt'
 
 #- Assuming 140903 was inside the source directory
 
